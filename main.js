@@ -1,12 +1,13 @@
-const names = [
-  ["Amr", 27],
-  ["Mohamed", 25],
-  ["Mostafa", 28],
-  ["Remon", 27],
-];
+// parameters: firstNumber, secondNumber
+// function addTwoNumbers(firstNumber, secondNumber) {
+//   console.log(firstNumber + secondNumber);
+// }
 
-for (let i = 0; i < names.length; i++) {
-  for (let j = 0; j < names[i].length; j++) {
-    console.log(names[i][j]);
-  }
-}
+const addTwoNumbers = (firstNumber, secondNumber) => {
+  console.log(firstNumber + secondNumber);
+};
+
+// arguments: 2, 5
+addTwoNumbers(2, 5);
+addTwoNumbers(8, 5);
+addTwoNumbers(0, 7);
